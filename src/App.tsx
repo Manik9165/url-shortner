@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./common/layouts/app-layout";
 import Landing from "./pages/landing";
 import Dashboard from "./pages/dashboard";
@@ -36,11 +35,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button variant="destructive">Click me</Button>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
