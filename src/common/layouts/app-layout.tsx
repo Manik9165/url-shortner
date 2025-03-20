@@ -9,7 +9,7 @@ const AppLayout = () => {
         <Outlet />
       </main>
 
-      <div className="p-10 mt-10 text-center bg-gray-800 w-full">
+      <div className="py-8 text-center w-full font-bold text-2xl">
         url-shortner @ 2025
       </div>
     </div>
