@@ -38,6 +38,7 @@ const Landing = () => {
           </Button>
         </form>
       </div>
+      <span className="w-full h-0 border border-white" />
       <div className="flex flex-col gap-6 w-[90%] md:w-full">
         <p className="text-3xl md:text-5xl font-bold py-2">FAQ's</p>
         <Accordion type="multiple" className="w-full flex flex-col">
@@ -46,7 +47,7 @@ const Landing = () => {
               What is shortify ?
             </AccordionTrigger>
             <AccordionContent className="text-xl md:text-xl">
-              Ever wondered what to do with those hefty long ULR's, no worry
+              Ever wondered what to do with those hefty long URL's, no worry
               just make it short 🤷‍♂️. Shortify will do this for you.
             </AccordionContent>
           </AccordionItem>
